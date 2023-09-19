@@ -1,5 +1,6 @@
 const images = ["./images/gc-chicken.jpeg", "./images/hdspaghetti.jpeg", "./images/pork.jpeg"]; // Add image URLs here
 const paths =["./recipes/garlicChicken.html", "./recipes/spaghetti.html", "./recipes/tenderloin.html"]; // Add relative paths here
+const alts =["Garlic-Caper Chicken", "Quick Hot Dog Spaghetti", "Sheet Pan Pork with Roasted Vegetables"];
 let currentIndex = 0;
 
 const prevButton = document.getElementById("prev-btn");
@@ -10,6 +11,7 @@ const imageLink = document.getElementById("image-link");
 function showImage(index) {
     image.src = images[index];
     imageLink.href = paths[index]; // Set the anchor's href to the corresponding relative path
+    image.alt = alts[index];
 }
 
 prevButton.addEventListener("click", () => {
