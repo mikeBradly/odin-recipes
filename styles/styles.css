@@ -3,11 +3,18 @@ body {
     text-align: center;
 }
 
+#image-description {
+    font-size: 32px;
+    font-family: cursive;
+}
+
+
 .slider-container {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .arrow-button {
@@ -21,8 +28,11 @@ body {
 #image {
     max-width: 80%;
     height: auto;
+    border: 32px groove rgb(113, 86, 86); 
+    border-radius: 10px;
 }
 
- 
+
+
 
 
