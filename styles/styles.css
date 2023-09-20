@@ -52,6 +52,16 @@ body {
     max-width: 25%;
 }
 
+.top-right-text {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-size: 20px;
+}
+
 .grow-image {
     width: fit-content; /* Initial width */
     height: auto; /* Maintain aspect ratio */
