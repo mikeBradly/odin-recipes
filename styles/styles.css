@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: fantasy, Arial, sans-serif;
     text-align: center;
 }
 
@@ -26,13 +26,41 @@ body {
 }
 
 #image {
-    max-width: 80%;
+    max-width: 70%;
     height: auto;
     border: 32px groove rgb(113, 86, 86); 
     border-radius: 10px;
 }
 
+.mainStay {
+    background: radial-gradient(circle, #0074D9, transparent); 
+    background-size: cover;
+    background-attachment: fixed; 
+    margin: 0; 
+}
 
+.imgage-container {
+    position: relative;
+}
+
+.top-left-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 20px;
+    margin-left: 20px;
+    max-width: 25%;
+}
+
+.grow-image {
+    width: fit-content; /* Initial width */
+    height: auto; /* Maintain aspect ratio */
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+.grow-image:hover {
+    transform: scale(1.1); /* Scale the image up by 20% */
+}
 
 
 
