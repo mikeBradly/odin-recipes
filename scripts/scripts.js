@@ -8,12 +8,14 @@ let currentIndex = 0;
 const prevButton = document.getElementById("prev-btn");
 const nextButton = document.getElementById("next-btn");
 const image = document.getElementById("image");
-const imageLink = document.getElementById("image-link");
+const imageLink1 = document.getElementById("image-link-1");
+const imageLink2 = document.getElementById("image-link-2");
 const imageDescription = document.getElementById("image-description");
 
 function showImage(index) {
     image.src = images[index];
-    imageLink.href = paths[index]; // Set the anchor's href to the corresponding relative path
+    imageLink1.href = paths[index]; // Set the anchor's href to the corresponding relative path
+    imageLink2.href = paths[index];
     image.alt = alts[index];
     imageDescription.textContent = descriptions[index];
 }
