@@ -8,6 +8,10 @@ body {
     font-family: cursive;
 }
 
+.text-container {
+    text-align: left;
+    margin-left: 25px;
+}
 
 .slider-container {
     position: relative;
@@ -39,6 +43,13 @@ body {
     margin: 0; 
 }
 
+.dogStay {
+    background: radial-gradient(circle, #f10e0e, transparent); 
+    background-size: cover;
+    background-attachment: fixed; 
+    margin: 0; 
+}
+
 .imgage-container {
     position: relative;
 }
@@ -62,14 +73,23 @@ body {
     font-size: 20px;
 }
 
+.top-right-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 50px;
+    margin-right: 50px;
+    max-width: 25%;
+}
+
 .grow-image {
-    width: fit-content; /* Initial width */
-    height: auto; /* Maintain aspect ratio */
-    transition: transform 0.3s ease; /* Add a smooth transition effect */
+    width: fit-content; 
+    height: auto; 
+    transition: transform 0.3s ease; 
 }
 
 .grow-image:hover {
-    transform: scale(1.1); /* Scale the image up by 20% */
+    transform: scale(1.1); 
 }
 
 
