@@ -57,6 +57,13 @@ body {
     margin: 0; 
 }
 
+.porkStay {
+    background: radial-gradient(circle, #b618b6, transparent); 
+    background-size: cover;
+    background-attachment: fixed; 
+    margin: 0; 
+}
+
 .imgage-container {
     position: relative;
 }
