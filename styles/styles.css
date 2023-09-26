@@ -50,6 +50,13 @@ body {
     margin: 0; 
 }
 
+.chickenStay {
+    background: radial-gradient(circle, #26f9be, transparent); 
+    background-size: cover;
+    background-attachment: fixed; 
+    margin: 0; 
+}
+
 .imgage-container {
     position: relative;
 }
